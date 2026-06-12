@@ -29,4 +29,7 @@ label_encoder_xgboost_v2.pkl
 
 build/
 dist/
+build_slim/
+dist_slim/
+release/
 *.spec
