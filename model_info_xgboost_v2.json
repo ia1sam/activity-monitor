@@ -1,0 +1,39 @@
+{
+  "version": "xgboost_v2",
+  "model_type": "XGBClassifier",
+  "feature_columns": [
+    "duration_sec",
+    "keyboard_count",
+    "mouse_moves",
+    "mouse_clicks",
+    "keyboard_per_min",
+    "mouse_per_min",
+    "hour",
+    "day_of_week",
+    "idle",
+    "is_browser",
+    "title_length",
+    "educational_title",
+    "has_python",
+    "has_ml",
+    "has_tutorial",
+    "is_youtube",
+    "youtube_educational",
+    "is_system_process",
+    "is_work_process",
+    "is_communication_process",
+    "is_entertainment_process",
+    "is_communication_domain",
+    "is_entertainment_domain",
+    "is_work_domain",
+    "title_has_work_file"
+  ],
+  "classes": [
+    "communication",
+    "entertainment",
+    "idle",
+    "learning",
+    "system",
+    "work"
+  ]
+}

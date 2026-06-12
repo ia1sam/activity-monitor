@@ -1,0 +1,9 @@
+PySide6
+pandas
+scikit-learn
+xgboost
+joblib
+Flask
+pynput
+psutil
+pywin32

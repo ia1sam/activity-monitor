@@ -1,0 +1,61 @@
+{
+  "output_path": "activity_dataset_live.csv",
+  "database_path": "activity_monitor.db",
+  "log_path": "log.txt",
+  "model_path": "model_xgboost.pkl",
+  "label_encoder_path": "label_encoder_xgboost.pkl",
+  "model_info_path": "model_info_xgboost_v2.json",
+  "model_version": "xgboost_v2",
+  "idle_threshold_sec": 60,
+  "poll_interval_sec": 1.0,
+  "min_duration_sec": 1.0,
+  "browser_min_duration_sec": 2.0,
+  "min_idle_duration_sec": 0.5,
+  "url_receiver_port": 5000,
+  "url_freshness_sec": 1,
+  "domain_debug_enabled": true,
+  "classification_enabled": true,
+  "storage_enabled": true,
+  "procrastination_notifications_enabled": false,
+  "procrastination_threshold_min": 15,
+  "category_display_settings": {
+    "communication": {
+      "display_name": "Общение",
+      "color": "#16a34a",
+      "description": "Мессенджеры, почта, чаты и звонки",
+      "visible": true
+    },
+    "entertainment": {
+      "display_name": "Развлечения",
+      "color": "#f97316",
+      "description": "Видео, музыка, игры и развлекательные сайты",
+      "visible": true
+    },
+    "idle": {
+      "display_name": "Бездействие",
+      "color": "#334155",
+      "description": "Периоды без активности клавиатуры и мыши",
+      "visible": true
+    },
+    "learning": {
+      "display_name": "Обучение",
+      "color": "#7c3aed",
+      "description": "Учебные материалы, курсы, статьи и документация",
+      "visible": true
+    },
+    "system": {
+      "display_name": "Система",
+      "color": "#64748b",
+      "description": "Проводник, рабочий стол и системные окна",
+      "visible": true
+    },
+    "work": {
+      "display_name": "Работа",
+      "color": "#2563eb",
+      "description": "Работа с IDE, документами, файлами и офисными приложениями",
+      "visible": true
+    }
+  },
+  "custom_training_categories": [],
+  "move_threshold_px": 25
+}
